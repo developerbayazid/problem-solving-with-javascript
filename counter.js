@@ -22,15 +22,15 @@ class Counter {
 }
 
 const counter = createCounter(3);
-console.log(counter());
-console.log(counter());
-console.log(counter());
-console.log(counter());
-console.log(counter());
+console.log(counter()); // 3
+console.log(counter()); // 4
+console.log(counter()); // 5
+console.log(counter()); // 6
+console.log(counter()); // 7
 
 const count = new Counter(3);
-console.log(count.increament());
-console.log(count.increament());
-console.log(count.increament());
-console.log(count.increament());
-console.log(count.increament());
+console.log(count.increament()); // 3
+console.log(count.increament()); // 4
+console.log(count.increament()); // 5
+console.log(count.increament()); // 6
+console.log(count.increament()); // 7
